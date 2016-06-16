@@ -1,0 +1,165 @@
+*, 
+*:before, 
+*:after {    
+margin: 0; 
+padding: 0;     
+-moz-box-sizing: border-box;     
+-webkit-box-sizing: border-box;     
+box-sizing: border-box; 
+}
+
+ul.leftnav {float: left;}
+ul.navmenu {
+	float: right;
+ 	list-style-type: none;
+}
+
+nav {
+    margin: 0;
+    padding-bottom: 1em;
+    overflow: hidden;
+    background-color: #fedb0e;
+}
+
+ul.navmenu li {
+	display: inline-block;
+    color: #0a1c20;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+ul.navmenu a{color: #0a1c20;
+	text-decoration: none;
+
+}
+
+body {
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	}
+
+h1 {
+	color: #d01e00;
+	font-size: 80px;
+	font-family: 'Bangers', serif;
+	letter-spacing: .05em
+}
+
+h3 {
+	font-size: 40px;
+}
+
+a {
+	font-size: 40px;
+}
+
+
+#headerlogo {
+	text-align: left;
+	font-size: 80px;
+	font-family: 'Bangers', serif;
+	padding: .01em .5em;
+	margin: auto;
+}
+
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+#slogan {
+	font-size: 80px;
+	text-align: left;
+	color: #fedb0e;
+	padding-top: 100px;
+	padding-left: 40px;
+	margin: 0;
+}
+
+
+#locations {
+	background-image: url("../images/skylines.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1em white solid;
+	padding: 0;
+}
+#locationslist {
+			display: inline-block;
+			list-style-type: none;
+			color: white;
+			font-size: 2em;
+			padding-bottom: 1em;
+}
+
+#menu {
+	background-image: url("../images/bam.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1em white solid;
+	padding: 0;
+}
+
+#homepagehero {
+	background-image: url("../images/herospidycupopacity.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+
+}
+.column {
+	width: 50%;
+	float: left;
+}
+
+#header {
+	text-align: left;
+}
+#aboutus {
+	background-image: url("../images/aboutus.png");
+	background size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	border: 2em white solid;
+	padding: 0;
+	margin: 0;
+
+}
+
+#aboutus  h3{
+	color: black;
+}
+#googleimages {
+	object-position: right;
+}
+
+footer {
+	text-align: left;
+	background-color: #fedb0e;
+	height: 4em;
+}
+h6{ 
+	font-size: 17px;
+	font-weight: normal; 
+	padding: 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
